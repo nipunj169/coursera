@@ -16,15 +16,20 @@
 			margin-left:1%;
 			margin-right:1%;
 			text-align:center;
-			padding-left:10px;
 			float:left;
 			background-color:#ddddff;
 			width:48%;
 			font-size:20px;
 			box-shadow:3px 2px 2px gray;
 		}
+		@keyframes example{
+			from{background-image:radial-gradient(white,#55dd22,green);}
+			to{background-image:radial-gradient(white,#dd5522,red);}
+		}
 		h1{
-
+			animation-name: example;
+			animation-duration:2s;
+			animation-iteration-count:infinite;
 			font-family: "Times New Roman", Times, serif;
 			color:#445566;
 			height:100px;
