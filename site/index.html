@@ -23,8 +23,12 @@
 			box-shadow:3px 2px 2px gray;
 		}
 		@keyframes example{
-			from{background-image:radial-gradient(white,#55dd22,green);}
-			to{background-image:radial-gradient(white,#dd5522,red);}
+			30%{background-image:radial-gradient(white,#55dd22,green);
+				border-bottom:5px solid #22aa44;
+				border-top:5px solid #22aa44;}
+			100%{background-image:radial-gradient(white,#dd5522,red);
+				border-bottom:5px solid red;
+				border-top:5px solid red;}
 		}
 		h1{
 			animation-name: example;
